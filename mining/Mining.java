@@ -266,6 +266,7 @@ public class Mining {
         Math.pow((one.getdYrsserv() - two.getdYrsserv()), 2));
         if(radius <= epsilon) {
             inside = true;
-        }return inside;
+        }
+        return inside;
     }
 }
